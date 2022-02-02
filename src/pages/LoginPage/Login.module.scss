@@ -1,0 +1,25 @@
+.form_container {
+    width: 20vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.submit__btn {
+    width: 100px;
+    background-color: rgb(36, 50, 114);
+    border: 1px solid rgb(22, 143, 190);
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.submit__btn:hover{
+    background-color: rgb(22, 143, 190);
+    border: 1px solid rgb(36, 50, 114);
+    color: rgb(0, 0, 0);
+}
